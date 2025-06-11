@@ -10,3 +10,12 @@ pub mod role;
 mod storage;
 pub mod transfer;
 pub mod utils;
+
+#[cfg(feature = "certora")]
+pub mod certora_specs;
+
+#[cfg(feature = "certora")]
+pub mod dummy_contract;
+
+#[cfg(test)]
+mod test_failed_rule;
