@@ -9,6 +9,7 @@ pub mod access_control_role_symbol_rules;
 pub mod access_control_authorization_simple_rules;
 pub mod access_control_emergency_mode_rules;
 pub mod access_control_storage_edge_cases_rules;
+pub mod fees_collector_comprehensive_rules;
 pub mod util;
 
 use access_control::access::AccessControl;
