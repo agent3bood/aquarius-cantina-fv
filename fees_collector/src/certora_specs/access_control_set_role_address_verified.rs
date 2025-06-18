@@ -4,7 +4,7 @@ use access_control::{access::AccessControl, role::Role};
 use cvlr::{clog, cvlr_assert, cvlr_assume};
 use cvlr_soroban::nondet_address;
 use cvlr_soroban_derive::rule;
-use soroban_sdk::{Env};
+use soroban_sdk::Env;
 
 /**
  * set_role_address
